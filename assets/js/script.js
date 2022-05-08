@@ -15,3 +15,13 @@ function flyShip(event)  {
     }
 }
 
+// Criando a função de ascender a nave
+function moveUp() {
+    let topPosition = getComputedStyle(yourShip).getPropertyValue('top');
+
+    if(topPosition === "0px") {
+        return;
+    } else {
+        let position = parseInt(topPosition);
+    }
+}
