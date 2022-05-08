@@ -18,6 +18,22 @@ body {
     width: 600px;
 }
 
+.game-instructions {
+    position: relative;
+    color: greenyellow;
+    
+    left: 13rem;
+    top: 0px;
+}
+
+.start-button {
+    position: relative;
+    color: greenyellow;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+
 .player-shooter {
     position: relative;
     height: 60px;
